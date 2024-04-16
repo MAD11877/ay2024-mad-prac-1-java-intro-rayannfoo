@@ -27,14 +27,14 @@ public class Question5 {
         Scanner in = new Scanner(System.in);
 
         // Prompt user for number of integers
-        System.out.print("Enter the number of integers: ");
+        //System.out.print("Enter the number of integers: ");
         int count = in.nextInt();
 
         // Array to store the integers
         int[] numbers = new int[count];
 
         // Prompt user for each integer and store them
-        System.out.println("Enter the integers:");
+        //System.out.println("Enter the integers:");
         for (int i = 0; i < count; i++) {
             numbers[i] = in.nextInt();
         }
