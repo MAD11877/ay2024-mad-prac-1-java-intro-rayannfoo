@@ -42,7 +42,7 @@ public class Question5 {
         // Find the mode
         int mode = findMode(numbers);
 
-        System.out.println("The mode is: " + mode);
+        System.out.println(mode);
 
         in.close();
     }
