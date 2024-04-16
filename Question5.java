@@ -48,4 +48,24 @@ public class Question5
 
     in.close();
   }
+  public static findMode(int[] numbers){
+    int maxCount = 0;
+    int mode = numbers[0];
+
+    for (int i = 0; i < numbers.length; i++){
+      int maxCount = 0;
+      int mode = numbers[0];
+
+      for (int j=0; j < numbers.length; j++){
+        if(numbers[j] == numbers[i]){
+          count++;
+        }
+        if (count > maxCount){
+          maxCount = count;
+          mode = numbers[i];
+        }
+      }
+      return mode;
+    }
+  }
 }

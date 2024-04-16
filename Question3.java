@@ -12,12 +12,12 @@ public class Question3
      
     Scanner in = new Scanner(System.in);
     
-    System.out.print("Enter an integer: ");
+    //System.out.print("Enter an integer: ");
     int num = in.nextInt();
     
     int result = num * num;
         
-    System.out.println("The result of multiplying " + num + " by itself is: " + result);
+    System.out.println(result);
         
     in.close();
   }
